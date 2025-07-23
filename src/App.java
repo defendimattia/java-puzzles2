@@ -13,6 +13,7 @@ public class App {
 
         // puzzle 1
         System.out.println("Puzzle 1");
+        System.out.println(Puzzle1.massimoComuneDivisore(47564, 2636));
         System.out.println("--------------------");
 
         // puzzle 2

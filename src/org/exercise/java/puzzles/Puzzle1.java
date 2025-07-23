@@ -9,5 +9,20 @@
 package org.exercise.java.puzzles;
 
 public class Puzzle1 {
-    
+    public static int massimoComuneDivisore(int a, int b) {
+
+        if (b == 0) {
+            return a;
+        }
+
+        while (a % b != 0) {
+
+            int resto = a % b;
+
+            a = b;
+            b = resto;
+        }
+
+        return b;
+    }
 }
