@@ -1,4 +1,6 @@
 
+import java.util.Arrays;
+
 import org.exercise.java.puzzles.Puzzle1;
 import org.exercise.java.puzzles.Puzzle2;
 import org.exercise.java.puzzles.Puzzle3;
@@ -18,6 +20,7 @@ public class App {
 
         // puzzle 2
         System.out.println("Puzzle 2");
+        System.out.println(Arrays.toString(Puzzle2.invertiArray(new int[] { 1, 2, 3, 4, 5 })));
         System.out.println("\n--------------------");
 
         // puzzle 3
