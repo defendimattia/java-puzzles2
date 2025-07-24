@@ -9,5 +9,10 @@
 package org.exercise.java.puzzles;
 
 public class Puzzle4 {
+    public static int contaParole(String frase){
+
+        String[] arrayString = frase.split("\\s+");
+        return arrayString.length;
+    }
     
 }

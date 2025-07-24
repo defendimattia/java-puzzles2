@@ -21,16 +21,17 @@ public class App {
         // puzzle 2
         System.out.println("Puzzle 2");
         System.out.println(Arrays.toString(Puzzle2.invertiArray(new int[] { 1, 2, 3, 4, 5 })));
-        System.out.println("\n--------------------");
+        System.out.println("--------------------");
 
         // puzzle 3
         System.out.println("Puzzle 3");
         System.out.println(Puzzle3.contaCaratteriUnici("aaaoaaapaaaiaaauaaayaaataaa"));
-        System.out.println("\n--------------------");
+        System.out.println("--------------------");
 
         // puzzle 4
         System.out.println("Puzzle 4");
-        System.out.println("\n--------------------");
+        System.out.println(Puzzle4.contaParole("prova prova prova  prova  prova prova"));
+        System.out.println("--------------------");
 
         // puzzle 5
         System.out.println("Puzzle 5");
