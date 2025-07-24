@@ -25,6 +25,7 @@ public class App {
 
         // puzzle 3
         System.out.println("Puzzle 3");
+        System.out.println(Puzzle3.contaCaratteriUnici("aaaoaaapaaaiaaauaaayaaataaa"));
         System.out.println("\n--------------------");
 
         // puzzle 4
