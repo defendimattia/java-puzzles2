@@ -51,6 +51,7 @@ public class App {
 
         // puzzle 8
         System.out.println("Puzzle 8");
+        System.out.println(Puzzle8.fattoriPrimi(564734255));
         System.out.println("\n--------------------");
     }
 }
