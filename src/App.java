@@ -45,6 +45,8 @@ public class App {
 
         // puzzle 7
         System.out.println("Puzzle 7");
+        System.out.print(
+                Puzzle7.elementoPiuFrequente(new int[] { 1, 5, 6, 32, 5, 7, 8, 5, 3, 5, 6, 7, 54, 3, 2, 45, 56 }));
         System.out.println("\n--------------------");
 
         // puzzle 8
