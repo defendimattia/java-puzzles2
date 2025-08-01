@@ -35,7 +35,8 @@ public class App {
 
         // puzzle 5
         System.out.println("Puzzle 5");
-        System.out.println("\n--------------------");
+        System.out.println(Puzzle5.ePalindromo("i topi non avevano nipoti"));
+        System.out.println("--------------------");
 
         // puzzle 6
         System.out.println("Puzzle 6");
