@@ -40,6 +40,7 @@ public class App {
 
         // puzzle 6
         System.out.println("Puzzle 6");
+        System.out.print(Puzzle6.mediaArray(new double[] { 1.1, 1.2, 1.3, 1.4, 1.5 }));
         System.out.println("\n--------------------");
 
         // puzzle 7

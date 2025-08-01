@@ -9,5 +9,14 @@
 package org.exercise.java.puzzles;
 
 public class Puzzle6 {
-    
+    public static double mediaArray(double[] array) {
+
+        double somma = 0;
+
+        for (double i : array) {
+            somma += i;
+        }
+
+        return somma / array.length;
+    }
 }
